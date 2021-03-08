@@ -1,0 +1,16 @@
+<%= render "shared/header" %>
+
+  <div class="contents">
+    <div class="upper-content">
+      <p class='start-info'>タイピングスキルをチェック！</p>
+      <%= form_with class: 'main', local: true do |f| %>
+        <div class='start-btn'>
+          <%= f.submit "スタート" ,class:"start-red-btn" %>
+        </div>
+      <% end %>
+    </div>
+    <div class="middle-content">
+    </div>
+  </div>
+
+<%= render "shared/footer" %>
